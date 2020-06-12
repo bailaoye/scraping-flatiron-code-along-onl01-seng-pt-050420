@@ -6,4 +6,8 @@ class Course
     @title = title
     @schedule = schedule
     @description = description
+  end
+  def self.all
+    @@all
+  end
 end
